@@ -2,7 +2,7 @@
 
 async function loadGallery() {
 const gallery = document.getElementById('gallery');
-const url = 'https://pokeapi.co/api/v2/pokemon?limit=60';
+const url = 'https://pokeapi.co/api/v2/pokemon?limit=125';
 const response = await fetch(url);
 const Pokemon = await response.json();
 console.log (Pokemon);
