@@ -1,6 +1,7 @@
 body {
     background-color: #111111; /* Cor de fundo */
     font-family: Baskerville, Times New Roman;
+    font-color: #f80b0b; /* Cor do texto */
     margin: 0;
     padding: 20px;
 }
